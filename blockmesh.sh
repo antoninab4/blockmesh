@@ -63,7 +63,7 @@ show_menu() {
 # Install node function with registration link and check
 install_node() {
     echo -e "${YELLOW}To continue, please register at the following link:${RESET}"
-    echo -e "${CYAN}https://app.blockmesh.xyz/register?invite_code=DK${RESET}"
+    echo -e "${CYAN}https://app.blockmesh.xyz/register?invite_code=WNT${RESET}"
     echo -ne "${YELLOW}Have you completed registration? (y/n): ${RESET}"
     read registered
 
