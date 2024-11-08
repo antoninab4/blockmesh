@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Color and icon definitions
@@ -32,7 +33,7 @@ print_telegram_icon() {
     echo -e "          ${MAGENTA}${ICON_TELEGRAM} Follow us on Telegram!${RESET}"
 }
 display_ascii() {
-    echo -e "    ${RED}   W  I  N  G  S     N  O  D  E     T  E  A  M${RESET}"
+    echo -e "    ${RED}         W i n g s  N o d e  T e a m ${RESET}"
     
 }
 
@@ -63,12 +64,12 @@ show_menu() {
 # Install node function with registration link and check
 install_node() {
     echo -e "${YELLOW}To continue, please register at the following link:${RESET}"
-    echo -e "${CYAN}https://app.blockmesh.xyz/register?invite_code=WNT${RESET}"
+    echo -e "${CYAN}https://app.blockmesh.xyz/register?invite_code=DK${RESET}"
     echo -ne "${YELLOW}Have you completed registration? (y/n): ${RESET}"
     read registered
 
     if [[ "$registered" != "y" && "$registered" != "Y" ]]; then
-        echo -e "${RED}Please complete the registration and use referral code WNT to continue.${RESET}"
+        echo -e "${RED}Please complete the registration and use referral code DK to continue.${RESET}"
         read -p "Press Enter to return to the menu..."
         return
     fi
