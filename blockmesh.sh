@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Color and icon definitions
@@ -142,7 +141,8 @@ change_account() {
     read -p "Press Enter to return to the menu..."
 }
 
-сat_account(){
+# View account function
+cat_account() {
     cat .env
     read -p "Press Enter to return to the menu..."
 }
@@ -167,7 +167,7 @@ while true; do
             start_node
             ;;
         6)
-            сat_account
+            cat_account
             ;;
         7)
             change_account
