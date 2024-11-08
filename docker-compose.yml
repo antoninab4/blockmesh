@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   blockmesh-cli:
-    image: antoninab4/blockmesh-cli_x86_64:latest
+    image: dknodes/blockmesh-cli_x86_64:latest
     container_name: blockmesh-cli
     environment:
       - USER_EMAIL=${USER_EMAIL}
